@@ -14,6 +14,8 @@
 		1431808D20CF58AC0049F8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431808B20CF58AC0049F8DF /* LaunchScreen.storyboard */; };
 		1431809820CF58AC0049F8DF /* Extensions_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431809720CF58AC0049F8DF /* Extensions_FunTests.swift */; };
 		143180A320CF58AC0049F8DF /* Extensions_FunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143180A220CF58AC0049F8DF /* Extensions_FunUITests.swift */; };
+		143180B120CF6BB00049F8DF /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143180B020CF6BB00049F8DF /* UIButtonExt.swift */; };
+		143180B320CF74440049F8DF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143180B220CF74430049F8DF /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1431809E20CF58AC0049F8DF /* Extensions-FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extensions-FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143180A220CF58AC0049F8DF /* Extensions_FunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions_FunUITests.swift; sourceTree = "<group>"; };
 		143180A420CF58AC0049F8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143180B020CF6BB00049F8DF /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		143180B220CF74430049F8DF /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1431808920CF58AC0049F8DF /* Assets.xcassets */,
 				1431808B20CF58AC0049F8DF /* LaunchScreen.storyboard */,
 				1431808E20CF58AC0049F8DF /* Info.plist */,
+				143180B020CF6BB00049F8DF /* UIButtonExt.swift */,
+				143180B220CF74430049F8DF /* Helpers.swift */,
 			);
 			path = "Extensions-Fun";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1431808520CF58AC0049F8DF /* ViewController.swift in Sources */,
+				143180B120CF6BB00049F8DF /* UIButtonExt.swift in Sources */,
 				1431808320CF58AC0049F8DF /* AppDelegate.swift in Sources */,
+				143180B320CF74440049F8DF /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
